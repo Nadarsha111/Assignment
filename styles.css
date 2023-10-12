@@ -1,0 +1,174 @@
+body {
+      font-family: sans-serif;
+      background: var(--background-dark, #2F1893);
+}
+
+header {
+      color: #fff;
+      padding: 1rem;
+      display: flex;
+      justify-content: space-between;
+}
+
+
+
+
+nav a {
+      color: #fff;
+      text-decoration: none;
+      padding: 1rem;
+}
+
+main {
+      display: flex;
+      justify-content: center;
+}
+
+section#hero {
+      margin-top: 219px;
+      color: #fff;
+      width: 424px;
+      height: 496px;
+}
+
+section#hero h2 {
+      font-size: 58px;
+      font-weight: 700;
+      text-align: left;
+      margin-bottom: 24px;
+}
+
+section#hero h5 {
+      width: 363px;
+      font-size: 22px;
+      text-align: left;
+}
+
+#learnmore {
+      font-size: 18px;
+      font-weight: 500;
+      width: 157px;
+      height: 50px;
+      margin-left: 0px;
+      background-color: #E93A7D;
+}
+
+#navbutton {
+      width: 120px;
+      height: 40px;
+      background-color: #E93A7D;
+      border-radius: 100px;
+      border: none;
+}
+
+
+
+
+section#signup {
+      margin-top: 187px;
+      width: 470px;
+      height: 600px;
+      background-color: #f5f5f5;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+}
+
+#formsection {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      width: 330px;
+}
+
+section#signup h3 {
+      font-size: 42px;
+      margin-bottom: 34px;
+      margin-top: 48px;
+      font-weight: 700;
+      color: #1E0E62;
+}
+
+
+
+section#signup input[type="email"],
+section#signup input[type="password"] {
+      width: 100%;
+      height: 50px;
+      padding-left: 24px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 100px;
+}
+
+section#signup input::placeholder {
+      font-size: 18px;
+      font-weight: 500;
+}
+
+section#signup input[type="checkbox"] {
+      vertical-align: middle;
+      margin-right: 1rem;
+}
+
+.button {
+      border-radius: 100px;
+      background: #482BE7;
+      margin-top: 6px;
+      color: #fff;
+      padding: 1rem;
+      font-size: 18px;
+      font-weight: 500;
+      border: none;
+      cursor: pointer;
+      width: 100%;
+      display: block;
+      margin: 0 auto;
+
+
+}
+
+#twitter {
+      background: #1DA1F2;
+}
+
+
+
+section#signup a {
+      color: #000;
+      text-decoration: none;
+      font-size: 18px;
+      margin-bottom: 27px;
+}
+
+
+
+section#signup form {
+      width: 330px;
+      margin: 0 auto;
+}
+
+
+
+section#signup input[type="submit"] {
+      font-size: 18px;
+}
+
+section#signup p {
+      margin-top: 1rem;
+      font-size: 18px;
+
+}
+
+section#signup a {
+      margin-top: 30px 28px;
+      font-size: 18px;
+      color: #1DA1F2;
+}
+
+/* i need to center the buttons */
+#buttons {
+      margin-top: 28px;
+      margin-left: 33px;
+}
